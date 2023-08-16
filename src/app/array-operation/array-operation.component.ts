@@ -61,5 +61,16 @@ export class ArrayOperationComponent implements OnInit {
    console.log(data);
    console.log(data.splice(2,1));//itemp delted
    console.log(data);
+   console.log(data.reverse());
+
+   console.log(data.sort(function(a, b){return a - b}));
+  console.log(data.sort(function(a, b){return b - a}))
+  //sorting random order
+
+  console.log(data.sort(function(){return 0.5 - Math.random()}));
+  //find highest lowest vakye
+
+  console.log("highest value",data.sort(function(a, b){return a - b}));
+
   }
 }
