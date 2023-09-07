@@ -7,6 +7,8 @@ import { FilterComponent } from './filter/filter.component';
 import { MapComponent } from './map/map.component';
 import { SortComponent } from './sort/sort.component';
 import { ArrayOperationComponent } from './array-operation/array-operation.component';
+import { FormsModule } from '@angular/forms';
+import { HtmltopdfComponent } from './htmltopdf/htmltopdf.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { ArrayOperationComponent } from './array-operation/array-operation.compo
     FilterComponent,
     MapComponent,
     SortComponent,
-    ArrayOperationComponent
+    ArrayOperationComponent,
+    HtmltopdfComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

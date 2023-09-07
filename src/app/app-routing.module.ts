@@ -5,6 +5,7 @@ import { FilterComponent } from './filter/filter.component';
 import { MapComponent } from './map/map.component';
 import { SortComponent } from './sort/sort.component';
 import { ArrayOperationComponent } from './array-operation/array-operation.component';
+import { HtmltopdfComponent } from './htmltopdf/htmltopdf.component';
 
 const routes: Routes = [
   { path: '', component: AppComponent },
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: 'array',
     component:ArrayOperationComponent
+  },
+  {
+    path: 'pdf',
+    component:HtmltopdfComponent
   }
 ];
 
