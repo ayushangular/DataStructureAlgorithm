@@ -41,8 +41,6 @@ export class MapComponent implements OnInit {
     console.log("filter and map",names);
     console.log("filter and map",names2);
   }
-  moveFilter(){
-    this.router.navigate(['/filter']);
-  }
+
 
 }

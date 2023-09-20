@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
+
   declarations: [
     AppComponent,
     FilterComponent,
@@ -23,6 +24,7 @@ import { HomeComponent } from './home/home.component';
     HomeComponent,
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     FormsModule

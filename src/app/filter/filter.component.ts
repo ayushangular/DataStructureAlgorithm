@@ -47,8 +47,5 @@ export class FilterComponent implements OnInit {
     console.log("New Array Data", newArray)
   }
 
-  moveMap(){
-    this.router.navigate(['/map']);
-  }
 
 }
