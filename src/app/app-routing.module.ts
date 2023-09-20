@@ -5,11 +5,16 @@ import { FilterComponent } from './filter/filter.component';
 import { MapComponent } from './map/map.component';
 import { SortComponent } from './sort/sort.component';
 import { ArrayOperationComponent } from './array-operation/array-operation.component';
-import { HtmltopdfComponent } from './htmltopdf/htmltopdf.component';
+import { JsComponent } from './js/js.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
-  {path:'sort', component: SortComponent},
+  { path: '', component: HomeComponent },
+  {
+    path:'sort', 
+    component: SortComponent
+  },
+
   {
     path:'filter',
     component:FilterComponent
@@ -19,14 +24,14 @@ const routes: Routes = [
     component:MapComponent
   },
   {
-    path: 'array',
+    path: 'array', 
     component:ArrayOperationComponent
   },
   {
-    path: 'pdf',
-    component:HtmltopdfComponent
+    path: 'js',
+    component:JsComponent
   }
-];
+];                         
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

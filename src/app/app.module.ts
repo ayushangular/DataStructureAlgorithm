@@ -8,7 +8,9 @@ import { MapComponent } from './map/map.component';
 import { SortComponent } from './sort/sort.component';
 import { ArrayOperationComponent } from './array-operation/array-operation.component';
 import { FormsModule } from '@angular/forms';
-import { HtmltopdfComponent } from './htmltopdf/htmltopdf.component';
+import { JsComponent } from './js/js.component';
+import { HomeComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { HtmltopdfComponent } from './htmltopdf/htmltopdf.component';
     MapComponent,
     SortComponent,
     ArrayOperationComponent,
-    HtmltopdfComponent
+    JsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
